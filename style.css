@@ -1,0 +1,125 @@
+p {
+	 background-color: #blanchedalmond; 
+	  color: #105051; 
+	  font-family: 'Lora', serif;
+	  font-size: 18px;
+	}
+
+body { 
+      background-color: #DCEAF9; }
+
+h1 {
+	color: #023e8a;
+	font-size: 50px;
+	line-height: 1.9;
+	font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	text-decoration: none; 
+    letter-spacing: 1px;
+	font-size: 20px;
+	 font-family: 'Lora', serif; 
+	 color: #023e8a ;
+
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #023e8a;
+    font-family: 'Lora', serif; 
+    font-weight: bold;
+    transition: color 0,3s ease
+
+
+   }
+
+  a:hover { 
+	color: black ;
+    font-family: 'Lora', serif;
+
+   }
+
+
+
+/* custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+    }
+@media (max-width: 760px) 
+    {.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 500px) 
+    {.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin: 20px 0px;
+    text-align: center;
+    }
+
+.bouton {
+	background-color: #023e8a;
+	color: floralwhite;
+	width: 160 px;
+	padding: 10px 15px;
+	border-radius: 6px;
+	font-size: 17px;
+}
+.bouton:hover {
+	background-color:green;
+	color: white;
+}
+
+#profile {
+	height: 140px;
+	width: 133px;
+    border-radius: 50%;
+    border: 5px solid #105051; }
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+  }
+
+.list-inline li {
+	display:  inline;
+	padding: 10px;
+}
+
+.list-inline i { 
+	font-size: 20px;
+    }
+
+#introduction p{
+	margin-bottom: 40px;
+
+}
+
+
+
